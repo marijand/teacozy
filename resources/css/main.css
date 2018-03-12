@@ -2,7 +2,6 @@
   margin: 0px;
   padding: 0px;
   font-family: Helvetica;
-  font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
@@ -17,6 +16,7 @@ header{
   justify-content: space-between;
   align-items: center;
   padding-left: 10px;
+  opacity: 1;
 }
 
 .logo img{
@@ -29,4 +29,37 @@ nav span{
 
 .a{
   text-decoration: underline;
+}
+
+.mission{
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  opacity: 1;
+}
+
+.missionbackground{
+  margin-top: 70px;
+  height: 700px;
+  width: 1200px;
+  display: inline-flex;
+  flex-direction: column;
+  background-image: url(../images/img-mission-background.jpg);
+  justify-content: center;
+  align-items: center;
+}
+
+.missiontext{
+  display: inline-flex;
+  justify-content: center;
+  background-color: black;
+  width: 1200px;
+  padding: 10px;
+  opacity: 1;
+}
+
+a,
+.mission{
+  font-size: 22px;
 }
