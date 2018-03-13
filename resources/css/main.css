@@ -1,3 +1,6 @@
+
+/* Whole Website */
+
 *{
   margin: 0px;
   padding: 0px;
@@ -6,6 +9,13 @@
   background-color: black;
   opacity: 0.9;
 }
+
+a,
+.mission{
+  font-size: 22px;
+}
+
+/* Header */
 
 header{
   height: 69px;
@@ -30,6 +40,8 @@ nav span{
 .a{
   text-decoration: underline;
 }
+
+/* Mission */
 
 .mission{
   width: 100%;
@@ -59,7 +71,32 @@ nav span{
   opacity: 1;
 }
 
-a,
-.mission{
-  font-size: 22px;
+.featuredtea{
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.featuredteatext{
+  display: inline-flex;
+  justify-content: center;
+}
+
+.featuredteaimages{
+  display: inline-flex;
+  justify-content: center;
+
+}
+
+.featuredteaheaders{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box img{
+  height: 200px;
+  width: 200px;
 }
