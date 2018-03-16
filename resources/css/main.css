@@ -82,7 +82,7 @@ nav span{
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  margin: 0px auto;
+  margin: 50px auto;
 }
 
 .featuredteatext{
@@ -134,7 +134,7 @@ nav span{
 .locationsbackground{
   display: inline-flex;
   flex-direction: column;
-  height: 500px;
+  height: 570px;
   width: 1200px;
   background-image: url(../images/img-locations-background.jpg);
   justify-content: center;
@@ -173,16 +173,17 @@ nav span{
 
 footer{
   margin-top: 10px;
-  width: 100%;
+  width: 1200px;
   height: 200px;
   text-align: center;
+  margin: 10px auto;
 }
 
 footer h5{
   margin: 30px;
 }
 
-.copyright{
+.copyright h5{
   text-align: left;
   margin-left: 20px;
 }
